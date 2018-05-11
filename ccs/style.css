@@ -1,0 +1,55 @@
+@charset "utf-8";
+/* CSS Document */
+html,body{
+   height:100%;
+   width:100%;
+   margin:0px;
+   padding:0px;
+	}
+	body{
+		color:#FFF;
+		font-size:20px;
+		font-family:"黑体";
+		}
+#bj{
+	height:100%;
+	width:100%;
+	background:url("../images/bj.jpg");
+	background-size:cover;
+	position:relative;
+	}
+	#bj .wz{
+		color:#FFF;
+		font-size:30px;
+		font-family:"黑体";
+		position:absolute;
+		top:53%;
+		left:37%;
+		}
+	#bj img{
+		position:fixed;
+		left:30%;
+		top:-5%;
+		}
+		#bj .dlk{
+			height:35%;
+			width:100%;
+			background:rgba(0,0,0,0.5);
+			position:absolute;
+			top:58%;
+			}
+			#bj .dlk form .dlsr{
+				                margin-top:2%;
+								margin-left:43%;
+						        width:15%;
+								height:40px;
+								background:rgba(0,0,0,0);
+								color:#FFF;
+								font-size:15px;
+								border:solid 0px;
+				}
+				#bj .dlk form .zhz{
+	 				               position:absolute;
+					               left:39%;
+								   margin-top:2.4%;
+					}
